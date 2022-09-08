@@ -89,10 +89,10 @@ function saveFavorite(itemUrl){
                 saveConfirmed.hidden = true;
             }, 2000);
             // Set Favorties in localStorage
-            localStorage.setItem('nasFavorites', JSON.stringify(favorites));
+            localStorage.setItem('nasaFavorites', JSON.stringify(favorites));
         }
     });
 }
 
-Load
+//On Load
 getNasaPictures();
